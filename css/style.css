@@ -120,6 +120,8 @@
 
 /*- - - - - FIN DEL FOOTER - - - - -*/
 
+/* - - - - - INICIO DEL MAIN - - - - - */  
+
 body{
     margin: 0;
     padding: 0;
@@ -141,10 +143,14 @@ main{
 }
 
 .titulo{
+    background-color: #232323;
+    color:rgb(190, 157, 10);
+    margin: 50px;
+    padding: 30px;
+    font-weight: bold;
     font-size: 30px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 .container-main {
@@ -201,7 +207,6 @@ main{
     font-weight: bold;
 }
 
-
 .formulario-main{
     border-radius: 10px;
     display: flex;
@@ -226,19 +231,28 @@ main{
 }
 
 .titulon h2{
-    margin: 25px;
+    background-color: #232323;
+    color:rgb(190, 157, 10);
+    margin: 50px;
+    padding: 30px;
     font-weight: bold;
     text-align: center;
+    border-radius: 10px;
 }
 
 .titulon p{
-    color: #232323;
+    background-color: #232323;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
     text-align: center;
     margin: 25px 55px;
+    border-radius: 10px;
+    padding: 25px;
 }
 
 .carousel-size{
-    max-width: 25%;
+    max-width: 40%;
     margin: 0 auto;
 }
 
@@ -246,15 +260,25 @@ main{
     object-fit: cover;
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .parrafo-abajo h2{
-    margin: 25px;
+    background-color: #232323;
+    color:rgb(190, 157, 10);
+    margin: 50px;
+    padding: 30px;
     font-weight: bold;
     text-align: center;
+    border-radius: 10px;
 }
 .parrafo-abajo p{
-    color: #232323;
+    background-color: #232323;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
     text-align: center;
     margin: 25px 55px;
+    border-radius: 10px;
+    padding: 25px;
 }
