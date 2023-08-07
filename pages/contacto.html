@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderFitness</title>
+    <!--- Link al CSS--->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!--- Header --->
+<header>
+
+    <div class="header-content">
+
+        <div class="logo">
+            <h1>Coder<b>Fitnesss</b></h1>
+        </div>
+
+        <div class="menu">
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                    <li><a href="productos.html" class="nav-link">Productos</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>     
+    </div>                 
+</header>
+<!--- Termina el header --->
+
+<!--- Main --->
+<main>
+    <section class="contacto">
+    <!--- METHOD = POST = ENVIAR DATOS .  GET = TRAER DATOS --->
+    <form class="formulario" action="" method="GET" enctype="application/x-www-form-urlencoded">
+        <legend>Contacta con nosotros</legend>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre" name="nombre">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Ingrese su email" name="email">
+        </div>
+        <div>
+            <label for="number">Número:</label>
+            <input type="tel" placeholder="Ingrese su número" name="numero">
+        </div>
+        <div>
+            <label for="">Mensaje:</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    </section>
+</main>
+<!--- Termina el Main --->
+
+
+
+<!---Empieza el footer--->
+<footer class="footer">
+    <div class="footer-content">
+      <ul class="footer-categories">
+        <li> <a href="index.html" class="footer-link">Inicio</a> </li>
+        <li> <a href="pages/nosotros.html" class="footer-link">Nosotros</a> </li>
+        <li> <a href="pages/productos.html" class="footer-link">Productos</a ></li>
+        <li> <a href="pages/blog.html" class="footer-link">Blog</a> </li>
+        <li> <a href="pages/contacto.html" class="footer-link">Contacto</a> </li>
+      </ul>
+    </div>
+<section class="sub-footer">
+    <div>
+        <p class="pfooter">© 2023 CoderFitness.  All rights reserved.</p>
+</section>
+    </div>
+</footer>
+<!--- Termina el Footer --->
+</body>
+</html>
