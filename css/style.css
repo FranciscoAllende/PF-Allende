@@ -442,6 +442,7 @@ main{
                         body {
                             overflow-x: hidden;
                         }
+                         /* Recordatorio, sacar overflow hidden */
                         .container-main {
                             flex-direction: column;
                             align-items: center;
@@ -587,6 +588,7 @@ main{
                         body {
                             overflow-x: hidden;
                         }
+                        /* Recordatorio, sacar overflow hidden */
                         .mapita iframe {
                             max-height: 200px;
                         }
@@ -633,6 +635,7 @@ main{
                         body {
                             overflow-x: hidden;
                         }
+                        /* Recordatorio, sacar overflow hidden*/
                         .mapita iframe {
                             max-height: 200px;
                         }
@@ -733,5 +736,163 @@ main{
     color: white;
 }
  
+/* - - - - - - - - - - BLOG - - - - - - - - - */
+
+.titulo-blog{
+    background-color: #232323;
+    color:rgb(190, 157, 10);
+    margin: 50px;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contenedor-blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.blog-card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-blog {
+    padding: 20px;
+}
+
+.content-blog h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content-blog p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content-blog a {
+    display: inline-block;
+    background-color: #232323;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 /* - - - - - - - - - - CONTACTO - - - - - - - - - */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-form{
+    background-color: #232323;
+    color:rgb(190, 157, 10);
+    margin: 50px;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 170px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    background-color: #232323;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #232323;
+    font-weight: bold;
+}
+.container-form a i{
+    color: #232323;
+    margin-right: 10px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    outline: 0px;
+    background: #232323;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    color: white;
+    background-color: rgb(190, 157, 10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
