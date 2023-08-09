@@ -791,6 +791,28 @@ main{
     text-decoration: none;
 }
 
+.blog-card h4 {
+    font-size: 35px;
+    color: #232323;
+    margin-bottom: 15px;
+}
+
+.blog-card p {
+    font-size: 25px;
+    color: #232323;
+    margin-bottom: 25px;
+}
+
+.blog-card a {
+    text-decoration: none;
+    color: rgb(190, 157, 10);
+    font-weight: bold;
+}
+
+.blog-card a:hover {
+    color: #232323;
+}
+
 /* - - - - - - - - - - CONTACTO - - - - - - - - - */
 .main{
     display: flex;
