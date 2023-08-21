@@ -245,14 +245,12 @@
                         body {
                             overflow-x: hidden;
                         }
-                    
                         .footer-content {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
                             margin: 20px 0;
                         }
-                        
                         .footer-link {
                             font-size: 16px;
                             margin: 5px 0;
@@ -260,14 +258,12 @@
                             border-radius: 5px;
                             text-align: center;
                         }
-                        
                         .pfooter {
                             font-size: 12px;
                             margin-top: 15px;
                             text-align: center;
                         }
                     }
-                    
 /* - - - - - - - - - - FIN MEDIA QUERIES FOOTER - - - - - - - - - - */
 
 
@@ -436,7 +432,6 @@ main{
                         margin-bottom: 15px;
                     }
                 }
-    
                     /* - - - MOBILE MAIN - - - */
                     @media screen and (max-width: 480px) {
                         body {
@@ -629,7 +624,6 @@ main{
 
                     }
 
-
                     /* - - - MOBILE - - - */
                     @media screen and (max-width: 480px) {
                         body {
@@ -733,6 +727,70 @@ main{
     .productos a:hover {
         color: white;
     }
+
+/* - - - - - - - - - - MEDIA QUERIES PRODUCTOS - - - - - - - - - */                    
+                    @media screen and (max-width: 1024px) {
+                        body {
+                            overflow-x: hidden;
+                        } 
+                        .sector-productos {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+                        }
+						.productos{
+							width: 50%;
+						}
+   						.productos {
+                            font-size: 25px;
+                        }
+                        .productos p {
+                            font-size: 20px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                    /*- - - - - PRODUCTOS TABLET - - - - - */
+                    @media screen and (max-width: 768px) {
+                        body {
+                            overflow-x: hidden;
+                        } 
+                        .sector-productos {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+                        }
+						.productos{
+							width: 100%;
+						}
+   						.productos {
+                            font-size: 25px;
+                        }
+                        .productos p {
+                            font-size: 20px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                    /*- - - - - PRODUCTOS MOBILE - - - - - */
+                    @media screen and (max-width: 480px) {
+                        body {
+                            overflow-x: hidden;
+                        } 
+                        .sector-productos {
+                            flex-direction: column;
+                            align-items: center;
+                        }
+						.productos{
+							width: 80%;
+						}
+   						.productos {
+                            font-size: 25px;
+                        }
+                        .productos p {
+                            font-size: 18px;
+                            margin-bottom: 15px;
+                        }
+                    }
+/* - - - - - - - - - - FIN MEDIA QUERIES PRODUCTOS - - - - - - - - - */
 /* - - - - - - - - - - BLOG - - - - - - - - - */
     .titulo-blog{
         background-color: #232323;
@@ -753,7 +811,7 @@ main{
 
     .blog-card {
         display: flex;
-        background-color: white;
+        background-color: rgb(219, 219, 219);
         border-radius: 10px;
         overflow: hidden;
         flex-direction: column;
@@ -765,7 +823,7 @@ main{
 }
 
 .content-blog {
-    padding: 20px;
+    padding: 10px;
 }
 
 .content-blog h4 {
@@ -806,8 +864,92 @@ main{
 }
 
 .blog-card a:hover {
-    color: #232323;
+    color: #ffffff;
 }
+/* - - - - - - - - - - MEDIA QUERIES BLOG - - - - - - - - - */ 
+                    @media screen and (max-width: 1024px) {
+                        .contenedor-blog {
+                            grid-template-columns: 1fr;
+                        }
+
+                        .blog-card h4 {
+                            font-size: 30px;
+                            margin-bottom: 10px;
+                        }
+                    
+                        .blog-card p {
+                            font-size: 20px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                /* - - - - - TABLET BLOG - - - - - */
+                    @media screen and (max-width: 768px) {
+                        .contenedor-blog {
+                            grid-template-columns: 1fr;
+                        }
+
+                        .blog-card {
+                            flex-direction: row;
+                        }
+
+                        .image {
+                            width: 40%;
+                        }
+
+                        .content-blog {
+                            width: 60%;
+                            padding: 10px;
+                        }
+
+                        .content-blog h4 {
+                            font-size: 18px;
+                        }
+
+                        .content-blog p {
+                            font-size: 14px;
+                        }
+
+                        .blog-card h4 {
+                            font-size: 30px;
+                            margin-bottom: 10px;
+                        }
+
+                        .blog-card p {
+                            font-size: 18px;
+                            margin-bottom: 15px;
+                        }
+                    }
+
+                    /*- - - - - BLOG MOBILE - - - - -*/
+                    @media screen and (max-width: 480px) {
+                        .contenedor-blog {
+                            grid-template-columns: 1fr;
+                        }
+
+                        .blog-card {
+                            flex-direction: column;
+                        }
+
+                        .image {
+                            width: 100%;
+                        }
+
+                        .content-blog {
+                            width: 100%;
+                            padding: 10px;
+                        }
+
+                        .blog-card h4 {
+                            font-size: 25px;
+                            margin-bottom: 10px;
+                        }
+
+                        .blog-card p {
+                            font-size: 16px;
+                            margin-bottom: 15px;
+                        }
+                    }
+/* - - - - - - - - - - FIN MEDIA QUERIES PRODUCTOS - - - - - - - - - */ 
 /* - - - - - - - - - - CONTACTO - - - - - - - - - */
     .main{
         display: flex;
@@ -893,3 +1035,75 @@ main{
         color: white;
         background-color: rgb(190, 157, 10);
     }
+/*- - - - - MEDIAS QUERIES CONTACTO - - - - -*/
+                    @media screen and (max-width: 1024px) {
+                        .container-form {
+                            grid-template-columns: 1fr;
+                            grid-gap: 30px;
+                        }
+                    
+                        .titulo-form {
+                            margin: 30px;
+                            padding: 20px;
+                            font-size: 24px;
+                            border-radius: 8px;
+                        }
+                    
+                        .container-form h2 {
+                            font-size: 28px;
+                        }
+                    
+                        .container-form p {
+                            font-size: 16px;
+                        }
+                    
+                        .container-form form textarea {
+                            max-width: 100%;
+                            min-width: auto;
+                            min-height: 120px;
+                            max-height: 130px;
+                        }
+                    }
+                    /*- - - - - CONTACTO TABLET - - - - -*/
+                    @media screen and (max-width: 768px) {
+                        .container-form {
+                            margin-top: 70px;
+                        }
+                    
+                        .container-form p {
+                            font-size: 15px;
+                        }
+                    
+                        .container-form form .campo,
+                        .container-form form textarea {
+                            padding: 12px 8px;
+                            font-size: 14px;
+                        }
+                    
+                        .container-form .btn-enviar {
+                            padding: 12px;
+                            font-size: 18px;
+                        }
+                    }
+                    /*- - - - - CONTACTO MOBILE - - - - -*/
+                    @media screen and (max-width: 480px) {
+                        .container-form {
+                        margin-top: 50px;
+                        }
+                    
+                        .container-form p {
+                        font-size: 14px;
+                        }
+                    
+                        .container-form form .campo,
+                        .container-form form textarea {
+                        padding: 10px 6px;
+                        font-size: 13px;
+                        }
+                    
+                        .container-form .btn-enviar {
+                        padding: 10px;
+                        font-size: 16px;
+                        }
+                    }
+/*- - - - - FIN MEDIAS QUERIES CONTACTO - - - - -*/
