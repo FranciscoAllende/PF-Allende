@@ -1,12 +1,7 @@
 /* - - - - - - - - - - CONTACTO - - - - - - - - - */
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.titulo-form{
+.titulo-form {
     background-color: #232323;
-    color:rgb(190, 157, 10);
+    color: rgb(190, 157, 10);
     margin: 50px;
     padding: 30px;
     font-weight: bold;
@@ -14,17 +9,19 @@
     text-align: center;
     border-radius: 10px;
 }
-.container-form{
+
+.container-form {
     width: 100%;
     max-width: 1100px;
     margin: auto;
     margin-bottom: 170px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     margin-top: 90px;
 }
-.container-form h2{
+
+.container-form h2 {
     background-color: #232323;
     color: white;
     display: flex;
@@ -32,13 +29,16 @@
     border-radius: 10px;
     margin-bottom: 15px;
     font-size: 35px;
+    padding: 15px 0;
 }
-.container-form p{
+
+.container-form p {
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
-.container-form a{
+
+.container-form a {
     font-size: 17px;
     display: inline-block;
     text-decoration: none;
@@ -47,11 +47,14 @@
     color: #232323;
     font-weight: bold;
 }
-.container-form a i{
+
+.container-form a i {
     color: #232323;
     margin-right: 10px;
 }
-.container-form form .campo, textarea{
+
+.container-form form .campo,
+.container-form form textarea {
     width: 100%;
     padding: 15px 10px;
     font-size: 15px;
@@ -60,13 +63,15 @@
     border-radius: 10px;
     outline: 0px;
 }
-.container-form form textarea{
+
+.container-form form textarea {
     max-width: 530px;
     min-width: 530px;
     min-height: 140px;
     max-height: 150px;
 }
-.container-form .btn-enviar{
+
+.container-form .btn-enviar {
     padding: 15px;
     font-size: 20px;
     border: none;
@@ -77,79 +82,8 @@
     cursor: pointer;
     transition: all 300ms ease;
 }
-.container-form .btn-enviar:hover{
+
+.container-form .btn-enviar:hover {
     color: white;
     background-color: rgb(190, 157, 10);
 }
-/*- - - - - MEDIA QUERIES CONTACTO - - - - -*/
-                    @media screen and (max-width: 1024px) {
-                        .container-form {
-                        grid-template-columns: 1fr;
-                        grid-gap: 30px;
-                        }
-                    
-                        .titulo-form {
-                        margin: 30px;
-                        padding: 20px;
-                        font-size: 24px;
-                        border-radius: 8px;
-                        }
-                    
-                        .container-form h2 {
-                        font-size: 28px;
-                        }
-                    
-                        .container-form p {
-                        font-size: 16px;
-                        }
-                    
-                        .container-form form textarea {
-                        max-width: 100%;
-                        min-width: auto;
-                        min-height: 120px;
-                        max-height: 130px;
-                        }
-                    }
-                    /*- - - - - CONTACTO TABLET - - - - -*/
-                    @media screen and (max-width: 768px) {
-                        .container-form {
-                        margin-top: 70px;
-                        }
-                    
-                        .container-form p {
-                        font-size: 15px;
-                        }
-                    
-                        .container-form form .campo,
-                        .container-form form textarea {
-                        padding: 12px 8px;
-                        font-size: 14px;
-                        }
-                    
-                        .container-form .btn-enviar {
-                        padding: 12px;
-                        font-size: 18px;
-                        }
-                    }
-                    /*- - - - - CONTACTO MOBILE - - - - -*/
-                    @media screen and (max-width: 480px) {
-                        .container-form {
-                        margin-top: 50px;
-                        }
-                    
-                        .container-form p {
-                        font-size: 14px;
-                        }
-                    
-                        .container-form form .campo,
-                        .container-form form textarea {
-                        padding: 10px 6px;
-                        font-size: 13px;
-                        }
-                    
-                        .container-form .btn-enviar {
-                        padding: 10px;
-                        font-size: 16px;
-                        }
-                    }
-/*- - - - - FIN MEDIA QUERIES CONTACTO - - - - -*/

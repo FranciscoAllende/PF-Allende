@@ -1,8 +1,7 @@
 /* - - - - - - - - - - BLOG - - - - - - - - - */
-
-.titulo-blog{
-    background-color: #232323;
-    color:rgb(190, 157, 10);
+.titulo-blog {
+    background-color: $color-primario;
+    color: $color-secundario;
     margin: 50px;
     padding: 30px;
     font-weight: bold;
@@ -20,8 +19,8 @@
 .blog-card {
     display: flex;
     background-color: rgb(219, 219, 219);
-    padding: 10px;
     border-radius: 10px;
+    padding: 10px;
     overflow: hidden;
     flex-direction: column;
 }
@@ -47,8 +46,8 @@
 
 .content-blog a {
     display: inline-block;
-    background-color: #232323;
-    color: white;
+    background-color: $color-primario;
+    color: $color-auxiliar;
     padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -56,101 +55,22 @@
 
 .blog-card h4 {
     font-size: 35px;
-    color: #232323;
+    color: $color-primario;
     margin-bottom: 15px;
 }
 
 .blog-card p {
     font-size: 25px;
-    color: #232323;
+    color: $color-primario;
     margin-bottom: 25px;
 }
 
 .blog-card a {
     text-decoration: none;
-    color: rgb(190, 157, 10);
+    color: $color-secundario;
     font-weight: bold;
 }
 
 .blog-card a:hover {
-    color: #232323;
+    color: $color-primario;
 }
-/* - - - - - - - - - - MEDIA QUERIES BLOG - - - - - - - - - */
-                    @media screen and (max-width: 1024px) {
-                        .blog-card h4 {
-                            font-size: 30px;
-                            margin-bottom: 10px;
-                        }
-
-                        .blog-card p {
-                            font-size: 20px;
-                            margin-bottom: 15px;
-                        }
-                    }
-                    /* - - - - - - - - - - BLOG TABLET - - - - - - - - - -*/
-                    @media screen and (max-width: 768px) {
-                        .contenedor-blog {
-                            grid-template-columns: 1fr;
-                        }
-
-                        .blog-card {
-                            flex-direction: row;
-                        }
-
-                        .image {
-                            width: 40%;
-                        }
-
-                        .content-blog {
-                            width: 60%;
-                            padding: 10px;
-                        }
-
-                        .content-blog h4 {
-                            font-size: 18px;
-                        }
-
-                        .content-blog p {
-                            font-size: 14px;
-                        }
-
-                        .blog-card h4 {
-                            font-size: 30px;
-                            margin-bottom: 10px;
-                        }
-
-                        .blog-card p {
-                            font-size: 18px;
-                            margin-bottom: 15px;
-                        }
-                    }
-                    /* - - - - - - - - - - BLOG MOBILE - - - - - - - - - -*/
-                    @media screen and (max-width: 480px) {
-                        .contenedor-blog {
-                            grid-template-columns: 1fr;
-                        }
-
-                        .blog-card {
-                            flex-direction: column;
-                        }
-
-                        .image {
-                            width: 100%;
-                        }
-
-                        .content-blog {
-                            width: 100%;
-                            padding: 10px;
-                        }
-
-                        .blog-card h4 {
-                            font-size: 25px;
-                            margin-bottom: 10px;
-                        }
-
-                        .blog-card p {
-                            font-size: 16px;
-                            margin-bottom: 15px;
-                        }
-                    }
-/*- - - - - - - - - - FIN MEDIA QUERIES BLOG - - - - - - - - - -*/

@@ -1,111 +1,56 @@
 /*- - - - - INICIO DEL FOOTER - - - - -*/
 .footer {
-    background-color: #232323;
-    padding: 5px;
+  background-color: $color-primario;
+  padding: 5px;
 
-    footer-content {
-        margin: 0px 15px;
-        display: flex;
-        justify-content: center;
-        
-        footer-categories {
-            text-decoration: none;
-
-            footer-link {
-                color: white;
-                font-size: 30px;
-                text-decoration: none;
-                margin: 0px 15px;
-                display: flex;
-                align-items: end;
-                padding: 5px 15px;
-                border-radius: 5px;
-                  ul {
-                    list-style: none;
-                    display: flex;
-                    align-items: center;
-                    margin: 0;
-                    padding: 0;
-                    
-                    ul li {
-                        text-decoration: none;
-                        
-                        &:hover{
-                            color: white;
-                            background-color: rgb(190, 157, 10);
-                        }
-                    }
-                }  
-            }
-        }
-    }
-}
-  
-  .p-footer {
+  .footer-content {
+    margin: 0px 15px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 
-    p-footer {
-        color: white;
+    .footer-categories {
+      text-decoration: none;
+
+      .footer-link {
+        color: $color-auxiliar;
+        font-size: 30px;
+        text-decoration: none;
+        margin: 0px 15px;
+        display: flex;
+        align-items: end;
+        padding: 5px 15px;
+        border-radius: 5px;
+        &:hover {
+          color: $color-auxiliar;
+          background-color: $color-secundario;
+        }
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    li {
+      text-decoration: none;
+    }
+  }
+
+  .sub-footer {
+    .p-footer {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+
+      .pfooter {
+        color: $color-auxiliar;
         font-size: 20px;
         margin: 10px 5px;
+      }
     }
+  }
 }
-  
-              /*- - - - - - - - - - MEDIA QUERIES FOOTER - - - - - - - - - -*/
-              /* - - - TABLET - - - */
-              @media screen and (max-width: 1024px) {
-                .footer-content {
-                  margin: 20px 0;
-                }
-                .footer-link {
-                  font-size: 18px;
-                  margin: 5px 10px;
-                  padding: 5px 10px;
-                }
-                .pfooter {
-                  font-size: 14px;
-                  margin-top: 15px;
-                }
-              }
-              @media screen and (max-width: 768px) {
-                .footer-content {
-                  margin: 20px 0;
-                }
-                .footer-link {
-                  font-size: 18px;
-                  margin: 5px 10px;
-                  padding: 5px 10px;
-                }
-                .pfooter {
-                  font-size: 14px;
-                  margin-top: 15px;
-                }
-              }
-              /* - - - MOBILE - - - */
-              @media screen and (max-width: 480px) {
-                body {
-                  overflow-x: hidden;
-                }
-                .footer-content {
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                  margin: 20px 0;
-                }
-                .footer-link {
-                  font-size: 16px;
-                  margin: 5px 0;
-                  padding: 5px 10px;
-                  border-radius: 5px;
-                  text-align: center;
-                }
-                .pfooter {
-                  font-size: 12px;
-                  margin-top: 15px;
-                  text-align: center;
-                }
-              }
-  /* - - - - - - - - - - FIN MEDIA QUERIES FOOTER - - - - - - - - - - */
-  /*- - - - - - - - - - FIN DEL FOOTER - - - - - - - - - -*/

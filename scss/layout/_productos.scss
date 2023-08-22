@@ -1,123 +1,56 @@
 /* - - - - - - - - - - PRODUCTOS - - - - - - - - - - */
-
-.imagen-productos img{
+.imagen-productos img {
     width: 100%;
     max-height: 300px;
     object-fit: cover;
     object-position: bottom;
-}
-.barra-busqueda{
+  }
+  
+  .barra-busqueda {
     display: flex;
-    justify-content: end;
-}
-
-.sector-productos {
+    justify-content: flex-end;
+  }
+  
+  .sector-productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-.productos {
+  }
+  
+  .productos {
     width: 30%;
     margin-bottom: 20px;
     background-color: #232323;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-}
-
-.productos img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.productos h4 {
-    font-size: 35px;
-    color: white;
-    margin-bottom: 15px;
-}
-
-.productos p {
-    font-size: 25px;
-    color: white;
-    margin-bottom: 25px;
-}
-
-.productos a {
-    text-decoration: none;
-    color: rgb(190, 157, 10);
-    font-weight: bold;
-}
-
-.productos a:hover {
-    color: white;
-}
- 
-/* - - - - - - - - - - MEDIA QUERIES PRODUCTOS - - - - - - - - - */
-                    @media screen and (max-width: 1024px) {
-                        .sector-productos {
-                            display: flex;
-                            justify-content: center;
-                        }
-
-                        .productos {
-                            width: 50%;
-                        }
-
-                        .card h4 {
-                            font-size: 28px;
-                        }
-
-                        .card p {
-                            font-size: 20px;
-                            margin-bottom: 20px;
-                        }
-                    }
-                    /* - - - - - TABLET - - - - - */
-                    @media screen and (max-width: 768px) {
-                        .sector-productos {
-                            display:flex;
-                            justify-content: center;
-                        }
-                        
-                        .productos {
-                            width: 80%;
-                            margin: 20px auto;
-                        }
-                        
-                        .productos h4 {
-                            font-size: 24px;
-                        }
-                        
-                        .productos p {
-                            font-size: 18px;
-                            margin-bottom: 15px;
-                        }
-                    }
-                        /* - - - MOBILE MAIN - - - */
-                    @media screen and (max-width: 480px) {
-                       
-                        body {
-                            overflow-x: hidden;
-                        }
-                            /* Recordatorio, sacar overflow hidden */
-                            .sector-productos {
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                        
-                            .productos {
-                                width: 80%;
-                            }
-
-                            .productos h4 {
-                                font-size: 25px;
-                            }
-                            .productos p {
-                                font-size: 18px;
-                                margin-bottom: 15px;
-                            }
-                        }
-/* - - - - - - - - - - FIN MEDIA QUERIES PRODUCTOS - - - - - - - - - */
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+  
+    h4 {
+      font-size: 35px;
+      color: white;
+      margin-bottom: 15px;
+    }
+  
+    p {
+      font-size: 25px;
+      color: white;
+      margin-bottom: 25px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: rgb(190, 157, 10);
+      font-weight: bold;
+  
+      &:hover {
+        color: white;
+      }
+    }
+  }
