@@ -190,63 +190,63 @@
   margin: 10px 5px;
 }
 
-/*- - - - - - - - - - MEDIA QUERIES FOOTER - - - - - - - - - -*/
-/* - - - TABLET - - - */
-@media screen and (max-width: 1024px) {
-  .footer-content {
-    margin: 20px 0;
-  }
-  .footer-link {
-    font-size: 18px;
-    margin: 5px 10px;
-    padding: 5px 10px;
-  }
-  .pfooter {
-    font-size: 14px;
-    margin-top: 15px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .footer-content {
-    margin: 20px 0;
-  }
-  .footer-link {
-    font-size: 18px;
-    margin: 5px 10px;
-    padding: 5px 10px;
-  }
-  .pfooter {
-    font-size: 14px;
-    margin-top: 15px;
-  }
-}
-/* - - - MOBILE - - - */
-@media screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-  }
-  .footer-link {
-    font-size: 16px;
-    margin: 5px 0;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-align: center;
-  }
-  .pfooter {
-    font-size: 12px;
-    margin-top: 15px;
-    text-align: center;
-  }
-}
+            /*- - - - - - - - - - MEDIA QUERIES FOOTER - - - - - - - - - -*/
+            /* - - - TABLET - - - */
+            @media screen and (max-width: 1024px) {
+              .footer-content {
+                margin: 20px 0;
+              }
+              .footer-link {
+                font-size: 18px;
+                margin: 5px 10px;
+                padding: 5px 10px;
+              }
+              .pfooter {
+                font-size: 14px;
+                margin-top: 15px;
+              }
+            }
+            @media screen and (max-width: 768px) {
+              .footer-content {
+                margin: 20px 0;
+              }
+              .footer-link {
+                font-size: 18px;
+                margin: 5px 10px;
+                padding: 5px 10px;
+              }
+              .pfooter {
+                font-size: 14px;
+                margin-top: 15px;
+              }
+            }
+            /* - - - MOBILE - - - */
+            @media screen and (max-width: 480px) {
+              body {
+                overflow-x: hidden;
+              }
+              .footer-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px 0;
+              }
+              .footer-link {
+                font-size: 16px;
+                margin: 5px 0;
+                padding: 5px 10px;
+                border-radius: 5px;
+                text-align: center;
+              }
+              .pfooter {
+                font-size: 12px;
+                margin-top: 15px;
+                text-align: center;
+              }
+            }
 /* - - - - - - - - - - FIN MEDIA QUERIES FOOTER - - - - - - - - - - */
 /*- - - - - - - - - - FIN DEL FOOTER - - - - - - - - - -*/
-/* - - - - - INICIO DEL MAIN - - - - - */
+/* - - - - - INICIO DE INDEX - - - - - */
 body {
   margin: 0;
   padding: 0;
@@ -349,89 +349,89 @@ main {
   color: white;
 }
 
-/* - - - - - - - - - - MEDIA QUERIES MAIN - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA QUERIES INDEX - - - - - - - - - - */
 /* - - - TABLET MAIN - - -*/
-@media screen and (max-width: 1024px) {
-  .container-main {
-    justify-content: center;
-  }
-  .card {
-    width: 45%;
-  }
-  .imagen img {
-    max-height: 200px;
-  }
-  .titulo {
-    margin: 20px;
-    padding: 20px;
-    font-size: 25px;
-    border-radius: 5px;
-  }
-  .card h4 {
-    font-size: 28px;
-  }
-  .card p {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container-main {
-    justify-content: center;
-  }
-  .card {
-    width: 80%;
-    margin: 20px auto;
-  }
-  .imagen img {
-    max-height: 150px;
-  }
-  .titulo {
-    margin: 15px;
-    padding: 15px;
-    font-size: 22px;
-    border-radius: 5px;
-  }
-  .card h4 {
-    font-size: 24px;
-  }
-  .card p {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-}
-/* - - - MOBILE MAIN - - - */
-@media screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
-  /* Recordatorio, sacar overflow hidden */
-  .container-main {
-    flex-direction: column;
-    align-items: center;
-  }
-  .card {
-    width: 80%;
-  }
-  .imagen img {
-    max-height: 150px;
-    object-fit: cover;
-  }
-  .titulo {
-    margin: 15px;
-    padding: 15px;
-    font-size: 22px;
-  }
-  .card h4 {
-    font-size: 25px;
-  }
-  .card p {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-}
-/* - - - - - - - - - - FIN MEDIA QUERIES MAIN - - - - - - - - - - */
-/* Formulario Main es de Bootstrap ya tiene responsive incluído! */
+          @media screen and (max-width: 1024px) {
+            .container-main {
+              justify-content: center;
+            }
+            .card {
+              width: 45%;
+            }
+            .imagen img {
+              max-height: 200px;
+            }
+            .titulo {
+              margin: 20px;
+              padding: 20px;
+              font-size: 25px;
+              border-radius: 5px;
+            }
+            .card h4 {
+              font-size: 28px;
+            }
+            .card p {
+              font-size: 20px;
+              margin-bottom: 20px;
+            }
+          }
+          @media screen and (max-width: 768px) {
+            .container-main {
+              justify-content: center;
+            }
+            .card {
+              width: 80%;
+              margin: 20px auto;
+            }
+            .imagen img {
+              max-height: 150px;
+            }
+            .titulo {
+              margin: 15px;
+              padding: 15px;
+              font-size: 22px;
+              border-radius: 5px;
+            }
+            .card h4 {
+              font-size: 24px;
+            }
+            .card p {
+              font-size: 18px;
+              margin-bottom: 15px;
+            }
+          }
+          /* - - - MOBILE MAIN - - - */
+          @media screen and (max-width: 480px) {
+            body {
+              overflow-x: hidden;
+            }
+            /* Recordatorio, sacar overflow hidden */
+            .container-main {
+              flex-direction: column;
+              align-items: center;
+            }
+            .card {
+              width: 80%;
+            }
+            .imagen img {
+              max-height: 150px;
+              object-fit: cover;
+            }
+            .titulo {
+              margin: 15px;
+              padding: 15px;
+              font-size: 22px;
+            }
+            .card h4 {
+              font-size: 25px;
+            }
+            .card p {
+              font-size: 18px;
+              margin-bottom: 15px;
+            }
+          }
+/* - - - - - - - - - - FIN MEDIA QUERIES INDEX - - - - - - - - - - */
+/* Formulario Index es de Bootstrap ya tiene responsive incluído! */
 /* - - - - - - - NOSOTROS - - - - - - - */
 .mapita iframe {
   width: 100%;
@@ -492,127 +492,127 @@ main {
   padding: 25px;
 }
 
-/* - - - - - - - - - - MEDIA QUERIES NOSOTROS - - - - - - - - - */
-/* - - - TABLET - - - */
-@media screen and (max-width: 1024px) {
-  .mapita iframe {
-    width: 100%;
-    max-height: 300px;
-  }
-  .titulon h2 {
-    margin: 30px;
-    padding: 20px;
-  }
-  .titulon p {
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-  }
-  .parrafo-abajo {
-    padding: 20px;
-  }
-  .parrafo-abajo h2 {
-    background-color: #232323;
-    color: rgb(190, 157, 10);
-    margin: 20px 0;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
-    border-radius: 10px;
-  }
-  .parrafo-abajo p {
-    background-color: #232323;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 10px;
-    padding: 15px;
-  }
-}
-@media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-  /* Recordatorio, sacar overflow hidden */
-  .mapita iframe {
-    max-height: 200px;
-  }
-  .titulon h2 {
-    margin: 20px;
-    padding: 20px;
-    font-size: 28px;
-  }
-  .titulon p {
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-  }
-  .parrafo-abajo h2 {
-    background-color: #232323;
-    color: rgb(190, 157, 10);
-    margin: 30px;
-    padding: 20px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 25px;
-  }
-  .parrafo-abajo p {
-    background-color: #232323;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    margin: 20px;
-    border-radius: 10px;
-    padding: 20px;
-  }
-}
-/* - - - MOBILE - - - */
-@media screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
-  /* Recordatorio, sacar overflow hidden*/
-  .mapita iframe {
-    max-height: 200px;
-  }
-  .titulon h2 {
-    margin: 20px;
-    padding: 15px;
-  }
-  .titulon p {
-    font-size: 18px;
-    margin: 15px;
-    padding: 15px;
-  }
-  .parrafo-abajo {
-    padding: 10px;
-  }
-  .parrafo-abajo h2 {
-    background-color: #232323;
-    color: rgb(190, 157, 10);
-    margin: 10px 0;
-    padding: 15px;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 10px;
-  }
-  .parrafo-abajo p {
-    background-color: #232323;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    margin: 10px 5px;
-    border-radius: 10px;
-    padding: 10px;
-  }
-}
+          /* - - - - - - - - - - MEDIA QUERIES NOSOTROS - - - - - - - - - */
+          /* - - - TABLET - - - */
+          @media screen and (max-width: 1024px) {
+            .mapita iframe {
+              width: 100%;
+              max-height: 300px;
+            }
+            .titulon h2 {
+              margin: 30px;
+              padding: 20px;
+            }
+            .titulon p {
+              font-size: 20px;
+              margin: 20px;
+              padding: 20px;
+            }
+            .parrafo-abajo {
+              padding: 20px;
+            }
+            .parrafo-abajo h2 {
+              background-color: #232323;
+              color: rgb(190, 157, 10);
+              margin: 20px 0;
+              padding: 20px;
+              font-weight: bold;
+              font-size: 24px;
+              text-align: center;
+              border-radius: 10px;
+            }
+            .parrafo-abajo p {
+              background-color: #232323;
+              font-size: 20px;
+              font-weight: bold;
+              color: white;
+              text-align: center;
+              margin: 20px 10px;
+              border-radius: 10px;
+              padding: 15px;
+            }
+          }
+          @media screen and (max-width: 768px) {
+            body {
+              overflow-x: hidden;
+            }
+            /* Recordatorio, sacar overflow hidden */
+            .mapita iframe {
+              max-height: 200px;
+            }
+            .titulon h2 {
+              margin: 20px;
+              padding: 20px;
+              font-size: 28px;
+            }
+            .titulon p {
+              font-size: 20px;
+              margin: 20px;
+              padding: 20px;
+            }
+            .parrafo-abajo h2 {
+              background-color: #232323;
+              color: rgb(190, 157, 10);
+              margin: 30px;
+              padding: 20px;
+              font-weight: bold;
+              text-align: center;
+              border-radius: 10px;
+              font-size: 25px;
+            }
+            .parrafo-abajo p {
+              background-color: #232323;
+              font-size: 20px;
+              font-weight: bold;
+              color: white;
+              text-align: center;
+              margin: 20px;
+              border-radius: 10px;
+              padding: 20px;
+            }
+          }
+          /* - - - MOBILE - - - */
+          @media screen and (max-width: 480px) {
+            body {
+              overflow-x: hidden;
+            }
+            /* Recordatorio, sacar overflow hidden*/
+            .mapita iframe {
+              max-height: 200px;
+            }
+            .titulon h2 {
+              margin: 20px;
+              padding: 15px;
+            }
+            .titulon p {
+              font-size: 18px;
+              margin: 15px;
+              padding: 15px;
+            }
+            .parrafo-abajo {
+              padding: 10px;
+            }
+            .parrafo-abajo h2 {
+              background-color: #232323;
+              color: rgb(190, 157, 10);
+              margin: 10px 0;
+              padding: 15px;
+              font-weight: bold;
+              font-size: 20px;
+              text-align: center;
+              border-radius: 10px;
+            }
+            .parrafo-abajo p {
+              background-color: #232323;
+              font-size: 16px;
+              font-weight: bold;
+              color: white;
+              text-align: center;
+              margin: 10px 5px;
+              border-radius: 10px;
+              padding: 10px;
+            }
+          }
 /* - - - - - - - - - - FIN MEDIA QUERIES NOSOTROS - - - - - - - - - */
 /* - - - - - - - - - - PRODUCTOS - - - - - - - - - - */
 .imagen-productos img {
@@ -672,61 +672,61 @@ main {
 }
 
 /* - - - - - - - - - - MEDIA QUERIES PRODUCTOS - - - - - - - - - */
-@media screen and (max-width: 1024px) {
-  .sector-productos {
-    display: flex;
-    justify-content: center;
-  }
-  .productos {
-    width: 50%;
-  }
-  .card h4 {
-    font-size: 28px;
-  }
-  .card p {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-}
-/* - - - - - TABLET - - - - - */
-@media screen and (max-width: 768px) {
-  .sector-productos {
-    display: flex;
-    justify-content: center;
-  }
-  .productos {
-    width: 80%;
-    margin: 20px auto;
-  }
-  .productos h4 {
-    font-size: 24px;
-  }
-  .productos p {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-}
-/* - - - MOBILE MAIN - - - */
-@media screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
-  /* Recordatorio, sacar overflow hidden */
-  .sector-productos {
-    flex-direction: column;
-    align-items: center;
-  }
-  .productos {
-    width: 80%;
-  }
-  .productos h4 {
-    font-size: 25px;
-  }
-  .productos p {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-}
+          @media screen and (max-width: 1024px) {
+            .sector-productos {
+              display: flex;
+              justify-content: center;
+            }
+            .productos {
+              width: 50%;
+            }
+            .card h4 {
+              font-size: 28px;
+            }
+            .card p {
+              font-size: 20px;
+              margin-bottom: 20px;
+            }
+          }
+          /* - - - - - TABLET - - - - - */
+          @media screen and (max-width: 768px) {
+            .sector-productos {
+              display: flex;
+              justify-content: center;
+            }
+            .productos {
+              width: 80%;
+              margin: 20px auto;
+            }
+            .productos h4 {
+              font-size: 24px;
+            }
+            .productos p {
+              font-size: 18px;
+              margin-bottom: 15px;
+            }
+          }
+          /* - - - MOBILE MAIN - - - */
+          @media screen and (max-width: 480px) {
+            body {
+              overflow-x: hidden;
+            }
+            /* Recordatorio, sacar overflow hidden */
+            .sector-productos {
+              flex-direction: column;
+              align-items: center;
+            }
+            .productos {
+              width: 80%;
+            }
+            .productos h4 {
+              font-size: 25px;
+            }
+            .productos p {
+              font-size: 18px;
+              margin-bottom: 15px;
+            }
+          }
 /* - - - - - - - - - - FIN MEDIA QUERIES PRODUCTOS - - - - - - - - - */
 /* - - - - - - - - - - BLOG - - - - - - - - - */
 .titulo-blog {
@@ -806,70 +806,70 @@ main {
 }
 
 /* - - - - - - - - - - MEDIA QUERIES BLOG - - - - - - - - - */
-@media screen and (max-width: 1024px) {
-  .blog-card h4 {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-  .blog-card p {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-}
-/* - - - - - - - - - - BLOG TABLET - - - - - - - - - -*/
-@media screen and (max-width: 768px) {
-  .contenedor-blog {
-    grid-template-columns: 1fr;
-  }
-  .blog-card {
-    flex-direction: row;
-  }
-  .image {
-    width: 40%;
-  }
-  .content-blog {
-    width: 60%;
-    padding: 10px;
-  }
-  .content-blog h4 {
-    font-size: 18px;
-  }
-  .content-blog p {
-    font-size: 14px;
-  }
-  .blog-card h4 {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-  .blog-card p {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-}
-/* - - - - - - - - - - BLOG MOBILE - - - - - - - - - -*/
-@media screen and (max-width: 480px) {
-  .contenedor-blog {
-    grid-template-columns: 1fr;
-  }
-  .blog-card {
-    flex-direction: column;
-  }
-  .image {
-    width: 100%;
-  }
-  .content-blog {
-    width: 100%;
-    padding: 10px;
-  }
-  .blog-card h4 {
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
-  .blog-card p {
-    font-size: 16px;
-    margin-bottom: 15px;
-  }
-}
+          @media screen and (max-width: 1024px) {
+            .blog-card h4 {
+              font-size: 30px;
+              margin-bottom: 10px;
+            }
+            .blog-card p {
+              font-size: 20px;
+              margin-bottom: 15px;
+            }
+          }
+          /* - - - - - - - - - - BLOG TABLET - - - - - - - - - -*/
+          @media screen and (max-width: 768px) {
+            .contenedor-blog {
+              grid-template-columns: 1fr;
+            }
+            .blog-card {
+              flex-direction: row;
+            }
+            .image {
+              width: 40%;
+            }
+            .content-blog {
+              width: 60%;
+              padding: 10px;
+            }
+            .content-blog h4 {
+              font-size: 18px;
+            }
+            .content-blog p {
+              font-size: 14px;
+            }
+            .blog-card h4 {
+              font-size: 30px;
+              margin-bottom: 10px;
+            }
+            .blog-card p {
+              font-size: 18px;
+              margin-bottom: 15px;
+            }
+          }
+          /* - - - - - - - - - - BLOG MOBILE - - - - - - - - - -*/
+          @media screen and (max-width: 480px) {
+            .contenedor-blog {
+              grid-template-columns: 1fr;
+            }
+            .blog-card {
+              flex-direction: column;
+            }
+            .image {
+              width: 100%;
+            }
+            .content-blog {
+              width: 100%;
+              padding: 10px;
+            }
+            .blog-card h4 {
+              font-size: 25px;
+              margin-bottom: 10px;
+            }
+            .blog-card p {
+              font-size: 16px;
+              margin-bottom: 15px;
+            }
+          }
 /*- - - - - - - - - - FIN MEDIA QUERIES BLOG - - - - - - - - - -*/
 /* - - - - - - - - - - CONTACTO - - - - - - - - - */
 .main {
@@ -965,67 +965,67 @@ main {
   background-color: rgb(190, 157, 10);
 }
 
-/*- - - - - MEDIA QUERIES CONTACTO - - - - -*/
-@media screen and (max-width: 1024px) {
-  .container-form {
-    grid-template-columns: 1fr;
-    grid-gap: 30px;
-  }
-  .titulo-form {
-    margin: 30px;
-    padding: 20px;
-    font-size: 24px;
-    border-radius: 8px;
-  }
-  .container-form h2 {
-    font-size: 28px;
-  }
-  .container-form p {
-    font-size: 16px;
-  }
-  .container-form form textarea {
-    max-width: 100%;
-    min-width: auto;
-    min-height: 120px;
-    max-height: 130px;
-  }
-}
-/*- - - - - CONTACTO TABLET - - - - -*/
-@media screen and (max-width: 768px) {
-  .container-form {
-    margin-top: 70px;
-  }
-  .container-form p {
-    font-size: 15px;
-  }
-  .container-form form .campo,
-  .container-form form textarea {
-    padding: 12px 8px;
-    font-size: 14px;
-  }
-  .container-form .btn-enviar {
-    padding: 12px;
-    font-size: 18px;
-  }
-}
-/*- - - - - CONTACTO MOBILE - - - - -*/
-@media screen and (max-width: 480px) {
-  .container-form {
-    margin-top: 50px;
-  }
-  .container-form p {
-    font-size: 14px;
-  }
-  .container-form form .campo,
-  .container-form form textarea {
-    padding: 10px 6px;
-    font-size: 13px;
-  }
-  .container-form .btn-enviar {
-    padding: 10px;
-    font-size: 16px;
-  }
-}
+          /*- - - - - MEDIA QUERIES CONTACTO - - - - -*/
+          @media screen and (max-width: 1024px) {
+            .container-form {
+              grid-template-columns: 1fr;
+              grid-gap: 30px;
+            }
+            .titulo-form {
+              margin: 30px;
+              padding: 20px;
+              font-size: 24px;
+              border-radius: 8px;
+            }
+            .container-form h2 {
+              font-size: 28px;
+            }
+            .container-form p {
+              font-size: 16px;
+            }
+            .container-form form textarea {
+              max-width: 100%;
+              min-width: auto;
+              min-height: 120px;
+              max-height: 130px;
+            }
+          }
+          /*- - - - - CONTACTO TABLET - - - - -*/
+          @media screen and (max-width: 768px) {
+            .container-form {
+              margin-top: 70px;
+            }
+            .container-form p {
+              font-size: 15px;
+            }
+            .container-form form .campo,
+            .container-form form textarea {
+              padding: 12px 8px;
+              font-size: 14px;
+            }
+            .container-form .btn-enviar {
+              padding: 12px;
+              font-size: 18px;
+            }
+          }
+          /*- - - - - CONTACTO MOBILE - - - - -*/
+          @media screen and (max-width: 480px) {
+            .container-form {
+              margin-top: 50px;
+            }
+            .container-form p {
+              font-size: 14px;
+            }
+            .container-form form .campo,
+            .container-form form textarea {
+              padding: 10px 6px;
+              font-size: 13px;
+            }
+            .container-form .btn-enviar {
+              padding: 10px;
+              font-size: 16px;
+            }
+          }
 /*- - - - - FIN MEDIA QUERIES CONTACTO - - - - -*/
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,182 @@
+/* - - - - - - - NOSOTROS - - - - - - - */
+.mapita iframe {
+    width: 100%;
+    max-height: 300px;
+  }
+  
+  .titulon h2 {
+    background-color: #232323;
+    color: rgb(190, 157, 10);
+    margin: 50px;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .titulon p {
+    background-color: #232323;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 25px 55px;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  .carousel-size {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .parrafo-abajo h2 {
+    background-color: #232323;
+    color: rgb(190, 157, 10);
+    margin: 50px;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .parrafo-abajo p {
+    background-color: #232323;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 25px 55px;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+            /* - - - - - - - - - - MEDIA QUERIES NOSOTROS - - - - - - - - - */
+            /* - - - TABLET - - - */
+            @media screen and (max-width: 1024px) {
+              .mapita iframe {
+                width: 100%;
+                max-height: 300px;
+              }
+              .titulon h2 {
+                margin: 30px;
+                padding: 20px;
+              }
+              .titulon p {
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+              }
+              .parrafo-abajo {
+                padding: 20px;
+              }
+              .parrafo-abajo h2 {
+                background-color: #232323;
+                color: rgb(190, 157, 10);
+                margin: 20px 0;
+                padding: 20px;
+                font-weight: bold;
+                font-size: 24px;
+                text-align: center;
+                border-radius: 10px;
+              }
+              .parrafo-abajo p {
+                background-color: #232323;
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                margin: 20px 10px;
+                border-radius: 10px;
+                padding: 15px;
+              }
+            }
+            @media screen and (max-width: 768px) {
+              body {
+                overflow-x: hidden;
+              }
+              /* Recordatorio, sacar overflow hidden */
+              .mapita iframe {
+                max-height: 200px;
+              }
+              .titulon h2 {
+                margin: 20px;
+                padding: 20px;
+                font-size: 28px;
+              }
+              .titulon p {
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+              }
+              .parrafo-abajo h2 {
+                background-color: #232323;
+                color: rgb(190, 157, 10);
+                margin: 30px;
+                padding: 20px;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 10px;
+                font-size: 25px;
+              }
+              .parrafo-abajo p {
+                background-color: #232323;
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                margin: 20px;
+                border-radius: 10px;
+                padding: 20px;
+              }
+            }
+            /* - - - MOBILE - - - */
+            @media screen and (max-width: 480px) {
+              body {
+                overflow-x: hidden;
+              }
+              /* Recordatorio, sacar overflow hidden*/
+              .mapita iframe {
+                max-height: 200px;
+              }
+              .titulon h2 {
+                margin: 20px;
+                padding: 15px;
+              }
+              .titulon p {
+                font-size: 18px;
+                margin: 15px;
+                padding: 15px;
+              }
+              .parrafo-abajo {
+                padding: 10px;
+              }
+              .parrafo-abajo h2 {
+                background-color: #232323;
+                color: rgb(190, 157, 10);
+                margin: 10px 0;
+                padding: 15px;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                border-radius: 10px;
+              }
+              .parrafo-abajo p {
+                background-color: #232323;
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                margin: 10px 5px;
+                border-radius: 10px;
+                padding: 10px;
+              }
+            }
+  /* - - - - - - - - - - FIN MEDIA QUERIES NOSOTROS - - - - - - - - - */

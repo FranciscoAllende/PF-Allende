@@ -1,0 +1,142 @@
+/* - - - - - INICIO DEL HEADER - - - - - */
+.header-content{
+    background-color: #232323;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.logo{
+    margin-left: 100px;
+
+    h1{
+        font-size: 40px;
+        color: white;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            b{
+                font-size: 40px;
+                color: rgb(190, 157, 10);
+            }
+        }
+    }
+}
+.menu {
+    display: flex;
+    align-items: center;
+
+    .nav-link {
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+        margin: 0 15px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        }
+    nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li{
+        text-decoration: none;
+        
+        &:hover{
+            color: white;
+            background-color: rgb(190, 157, 10);
+        }
+    }
+}
+
+/* - - - - - - - - - - MEDIA QUERIES HEADER- - - - - - - - - - */
+                /* - - - TABLET - - - */
+                @media screen and (max-width: 1024px) {
+                    .header-content {
+                        padding: 10px;
+                    }
+                
+                    .logo {
+                        margin-left: 20px;
+                    }
+                
+                    .logo h1 {
+                        font-size: 30px;
+                    }
+                
+                    .menu {
+                        margin-right: 20px;
+                    }
+                
+                    .nav-link {
+                        font-size: 18px;
+                        padding: 5px 10px;
+                    }
+                
+                    .menu nav ul li {
+                        margin: 0 5px;
+                    }
+                }
+                @media screen and (max-width: 768px) {
+                    .header-content {
+                        padding: 15px;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    
+                    .logo {
+                        margin: 0;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .logo h1 {
+                        font-size: 24px;
+                    }
+                    
+                    .menu {
+                        margin: 10px 0;
+                        text-align: center;
+                    }
+                    
+                    .nav-link {
+                        font-size: 16px;
+                        padding: 8px 15px;
+                        margin: 5px;
+                    }
+                    
+                    .menu nav ul li {
+                        margin: 0;
+                    }
+                }
+                /* - - - MOBILE - - - */    
+                @media screen and (max-width: 480px) {
+                    .header-content {
+                        flex-direction: column;
+                    }
+                
+                    .logo {
+                        margin-left: 0;
+                        margin-bottom: 20px;
+                    }
+                
+                    .menu nav ul {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                
+                    .nav-link {
+                        margin: 5px 0;
+                    }
+                }
+/* - - - - - - - - - - FIN MEDIA QUERIES HEADER - - - - - - - - - - */
+/* - - - - - - - - - - FIN DEL HEADER - - - - - - - - - - */
