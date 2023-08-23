@@ -130,9 +130,9 @@ main .titulo {
   color: rgb(190, 157, 10);
   margin: 30px;
   padding: 20px;
-  font-weight: bold;
-  font-size: 25px;
   text-align: center;
+  font-weight: "bold";
+  font-size: 25px;
   border-radius: 10px;
 }
 main .container-main {
@@ -180,11 +180,11 @@ main .titulo-formulario-main {
 main .titulo-formulario-main h3 {
   background-color: #232323;
   color: rgb(190, 157, 10);
+  text-align: center;
+  font-weight: "bold";
   width: 100%;
   padding: 30px;
-  font-weight: bold;
   font-size: 30px;
-  text-align: center;
   border-radius: 10px;
 }
 main .formulario-main {
@@ -209,16 +209,16 @@ section .mapita iframe {
   color: rgb(190, 157, 10);
   margin: 50px;
   padding: 30px;
-  font-weight: bold;
   text-align: center;
+  font-weight: "bold";
   border-radius: 10px;
 }
 .titulon p {
   background-color: #232323;
   font-size: 25px;
-  font-weight: bold;
-  color: white;
   text-align: center;
+  font-weight: "bold";
+  color: white;
   margin: 25px 55px;
   border-radius: 10px;
   padding: 25px;
@@ -240,16 +240,16 @@ section .mapita iframe {
   color: rgb(190, 157, 10);
   margin: 50px;
   padding: 30px;
-  font-weight: bold;
   text-align: center;
+  font-weight: "bold";
   border-radius: 10px;
 }
 .parrafo-abajo p {
   background-color: #232323;
   font-size: 25px;
-  font-weight: bold;
-  color: white;
   text-align: center;
+  font-weight: "bold";
+  color: white;
   margin: 25px 55px;
   border-radius: 10px;
   padding: 25px;
@@ -288,7 +288,7 @@ section .mapita iframe {
   border-radius: 5px;
   margin-bottom: 10px;
 }
-.productos h4 {
+.productos h2 {
   font-size: 35px;
   color: white;
   margin-bottom: 15px;
@@ -313,9 +313,9 @@ section .mapita iframe {
   color: rgb(190, 157, 10);
   margin: 50px;
   padding: 30px;
-  font-weight: bold;
-  font-size: 30px;
   text-align: center;
+  font-weight: "bold";
+  font-size: 30px;
   border-radius: 10px;
 }
 
@@ -390,9 +390,9 @@ section .mapita iframe {
   color: rgb(190, 157, 10);
   margin: 50px;
   padding: 30px;
-  font-weight: bold;
-  font-size: 30px;
   text-align: center;
+  font-weight: "bold";
+  font-size: 30px;
   border-radius: 10px;
 }
 

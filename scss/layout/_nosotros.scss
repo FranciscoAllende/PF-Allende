@@ -13,17 +13,15 @@ section {
     color: $color-secundario;
     margin: 50px;
     padding: 30px;
-    font-weight: bold;
-    text-align: center;
+    @include texto("center", "bold");
     border-radius: 10px;
   }
 
   p {
     background-color: $color-primario;
     font-size: 25px;
-    font-weight: bold;
+    @include texto("center", "bold");
     color: $color-auxiliar;
-    text-align: center;
     margin: 25px 55px;
     border-radius: 10px;
     padding: 25px;
@@ -48,17 +46,15 @@ section {
     color: $color-secundario;
     margin: 50px;
     padding: 30px;
-    font-weight: bold;
-    text-align: center;
+    @include texto("center", "bold");
     border-radius: 10px;
   }
 
   p {
     background-color: $color-primario;
     font-size: 25px;
-    font-weight: bold;
+    @include texto("center", "bold");
     color: $color-auxiliar;
-    text-align: center;
     margin: 25px 55px;
     border-radius: 10px;
     padding: 25px;

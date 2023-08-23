@@ -20,7 +20,7 @@
   .productos {
     width: 30%;
     margin-bottom: 20px;
-    background-color: #232323;
+    background-color: $color-primario;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -34,23 +34,23 @@
   
     h2 {
       font-size: 35px;
-      color: white;
+      color: $color-auxiliar;
       margin-bottom: 15px;
     }
   
     p {
       font-size: 25px;
-      color: white;
+      color: $color-auxiliar;
       margin-bottom: 25px;
     }
   
     a {
       text-decoration: none;
-      color: rgb(190, 157, 10);
+      color: $color-secundario;
       font-weight: bold;
   
       &:hover {
-        color: white;
+        color: $color-auxiliar;
       }
     }
   }

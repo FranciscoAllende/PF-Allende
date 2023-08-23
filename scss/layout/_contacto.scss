@@ -1,12 +1,11 @@
 /* - - - - - - - - - - CONTACTO - - - - - - - - - */
 .titulo-form {
-    background-color: #232323;
-    color: rgb(190, 157, 10);
+    background-color: $color-primario;
+    color: $color-secundario;
     margin: 50px;
     padding: 30px;
-    font-weight: bold;
+    @include texto("center", "bold");
     font-size: 30px;
-    text-align: center;
     border-radius: 10px;
 }
 
@@ -22,10 +21,9 @@
 }
 
 .container-form h2 {
-    background-color: #232323;
-    color: white;
-    display: flex;
-    justify-content: center;
+    background-color: $color-primario;
+    color: $color-auxiliar;
+    @include flex(flex, center);
     border-radius: 10px;
     margin-bottom: 15px;
     font-size: 35px;
@@ -44,12 +42,12 @@
     text-decoration: none;
     width: 100%;
     margin-bottom: 15px;
-    color: #232323;
+    color: $color-primario;
     font-weight: bold;
 }
 
 .container-form a i {
-    color: #232323;
+    color: $color-primario;
     margin-right: 10px;
 }
 
@@ -76,14 +74,14 @@
     font-size: 20px;
     border: none;
     outline: 0px;
-    background: #232323;
-    color: white;
+    background: $color-primario;
+    color: $color-auxiliar;
     border-radius: 10px;
     cursor: pointer;
     transition: all 300ms ease;
 }
 
 .container-form .btn-enviar:hover {
-    color: white;
-    background-color: rgb(190, 157, 10);
+    color: $color-auxiliar;
+    background-color: $color-secundario;
 }
