@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Play:wght@700&display=swap");
 * {
   margin: 0;
@@ -109,7 +110,6 @@
   margin: 10px 5px;
 }
 
-/* Estilos generales */
 body {
   margin: 0;
   padding: 0;
@@ -128,10 +128,10 @@ main .imagen img {
 main .titulo {
   background-color: #232323;
   color: rgb(190, 157, 10);
-  margin: 50px;
-  padding: 30px;
+  margin: 30px;
+  padding: 20px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   border-radius: 10px;
 }
@@ -142,7 +142,7 @@ main .container-main {
 }
 main .container-main .card {
   width: 30%;
-  margin-bottom: 20px;
+  margin: 0 10px 20px;
   background-color: #232323;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -155,14 +155,14 @@ main .container-main .card img {
   margin-bottom: 10px;
 }
 main .container-main .card h4 {
-  font-size: 35px;
-  color: white;
-  margin-bottom: 15px;
-}
-main .container-main .card p {
   font-size: 25px;
   color: white;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+}
+main .container-main .card p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
 }
 main .container-main .card a {
   text-decoration: none;
@@ -473,5 +473,526 @@ section .mapita iframe {
   color: white;
   background-color: rgb(190, 157, 10);
 }
+
+/* - - - - - - - - - - MEDIA QUERIES HEADER- - - - - - - - - - */
+/* - - - TABLET - - - */
+@media screen and (max-width: 1024px) {
+  .header-content {
+    padding: 10px;
+  }
+  .header-content .logo {
+    margin-left: 20px;
+  }
+  .header-content .logo h1 {
+    font-size: 30px;
+  }
+  .header-content .menu {
+    margin-right: 20px;
+  }
+  .header-content .nav-link {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  .header-content .menu nav ul li {
+    margin: 0 5px;
+  }
+}
+/* - - - MOBILE - - - */
+@media screen and (max-width: 768px) {
+  .header-content {
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-content .logo {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .header-content .logo h1 {
+    font-size: 24px;
+  }
+  .header-content .menu {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .header-content .nav-link {
+    font-size: 16px;
+    padding: 8px 15px;
+    margin: 5px;
+  }
+  .header-content .menu nav ul li {
+    margin: 0;
+  }
+}
+/* - - - MOBILE (480px) - - - */
+@media screen and (max-width: 480px) {
+  .header-content {
+    flex-direction: column;
+  }
+  .header-content .logo {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .header-content .menu nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-content .nav-link {
+    margin: 5px 0;
+  }
+}
+/* - - - - - - - - - - FIN MEDIA QUERIES HEADER - - - - - - - - - - */
+/*- - - - - - - - - - MEDIA QUERIES FOOTER - - - - - - - - - -*/
+/* - - - TABLET - - - */
+@media screen and (max-width: 1024px) {
+  .footer-content {
+    margin: 20px 10px;
+  }
+  .footer-link {
+    font-size: 18px;
+    margin: 5px 10px;
+    padding: 5px 10px;
+  }
+  .pfooter {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
+/* - - - MOBILE - - - */
+@media screen and (max-width: 768px) {
+  .footer-content {
+    margin: 20px 0;
+  }
+  .footer-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-link {
+    font-size: 18px;
+    margin: 5px 10px;
+    padding: 5px 10px;
+  }
+  .p-footer {
+    margin-top: 20px;
+  }
+  .pfooter {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
+/* - - - MOBILE (480px) - - - */
+@media screen and (max-width: 480px) {
+  .footer-content {
+    margin: 20px 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-link {
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .p-footer {
+    margin-top: 15px;
+  }
+  .pfooter {
+    font-size: 12px;
+    margin: 5px;
+  }
+}
+/* - - - - - - - - - - FIN MEDIA QUERIES FOOTER - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA QUERIES MAIN - - - - - - - - - - */
+/* - - - TABLET MAIN - - -*/
+@media screen and (max-width: 1024px) {
+  .container-main {
+    justify-content: center;
+  }
+  .container-main .card {
+    width: 45%;
+  }
+  .container-main .card .imagen img {
+    max-height: 200px;
+  }
+  .container-main .card .titulo {
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+  }
+  .container-main .card h4 {
+    font-size: 28px;
+  }
+  .container-main .card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-main {
+    justify-content: center;
+  }
+  .container-main .card {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .container-main .card .imagen img {
+    max-height: 150px;
+  }
+  .container-main .card .titulo {
+    margin: 15px;
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 5px;
+  }
+  .container-main .card h4 {
+    font-size: 24px;
+  }
+  .container-main .card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+/* - - - MOBILE - - - */
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-main .card {
+    width: 80% !important;
+  }
+  .container-main .card .imagen img {
+    max-height: 150px;
+    object-fit: cover;
+  }
+  .container-main .card .titulo {
+    margin: 15px;
+    padding: 15px;
+    font-size: 22px;
+  }
+  .container-main .card h4 {
+    font-size: 25px;
+  }
+  .container-main .card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+/* Formulario Main es de Bootstrap ya tiene responsive incluído! */
+/* - - - - - - - - - - FIN MEDIA QUERIES MAIN - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA QUERIES NOSOTROS - - - - - - - - - */
+/* - - - TABLET - - - */
+@media screen and (max-width: 1024px) {
+  .mapita iframe {
+    width: 100%;
+    max-height: 300px;
+  }
+  .titulon h2 {
+    margin: 30px;
+    padding: 20px;
+  }
+  .titulon p {
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .parrafo-abajo {
+    padding: 20px;
+  }
+  .parrafo-abajo h2 {
+    background-color: #232323;
+    color: rgb(190, 157, 10);
+    margin: 20px 0;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .parrafo-abajo p {
+    background-color: #232323;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mapita iframe {
+    max-height: 200px;
+  }
+  .titulon h2 {
+    margin: 20px;
+    padding: 20px;
+    font-size: 28px;
+  }
+  .titulon p {
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .parrafo-abajo h2 {
+    background-color: #232323;
+    color: rgb(190, 157, 10);
+    margin: 30px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  .parrafo-abajo p {
+    background-color: #232323;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+}
+/* - - - MOBILE - - - */
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mapita iframe {
+    max-height: 200px;
+  }
+  .titulon h2 {
+    margin: 20px;
+    padding: 15px;
+  }
+  .titulon p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 15px;
+  }
+  .parrafo-abajo {
+    padding: 10px;
+  }
+  .parrafo-abajo h2 {
+    background-color: #232323;
+    color: rgb(190, 157, 10);
+    margin: 10px 0;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .parrafo-abajo p {
+    background-color: #232323;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
+/* - - - - - - - - - - FIN MEDIA QUERIES NOSOTROS - - - - - - - - - */
+/* - - - - - - - - - - MEDIA QUERIES PRODUCTOS - - - - - - - - - */
+/* - - - TABLET - - - */
+@media screen and (max-width: 1024px) {
+  .sector-productos {
+    display: flex;
+    justify-content: center;
+  }
+  .sector-productos .productos {
+    width: 50%;
+  }
+  .sector-productos .productos h4 {
+    font-size: 28px;
+  }
+  .sector-productos .productos p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sector-productos {
+    display: flex;
+    justify-content: center;
+  }
+  .sector-productos .productos {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .sector-productos .productos h4 {
+    font-size: 24px;
+  }
+  .sector-productos .productos p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+/* - - - MOBILE - - - */
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .sector-productos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sector-productos .productos {
+    width: 80%;
+  }
+  .sector-productos .productos h4 {
+    font-size: 25px;
+  }
+  .sector-productos .productos p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+/* - - - - - - - - - - FIN MEDIA QUERIES PRODUCTOS - - - - - - - - - */
+/* - - - - - - - - - - MEDIA QUERIES BLOG - - - - - - - - - */
+/* - - - TABLET - - - */
+@media screen and (max-width: 1024px) {
+  .blog-card h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .blog-card p {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contenedor-blog {
+    grid-template-columns: 1fr;
+  }
+  .blog-card {
+    flex-direction: row;
+  }
+  .blog-card .image {
+    width: 40%;
+  }
+  .blog-card .content-blog {
+    width: 60%;
+    padding: 10px;
+  }
+  .blog-card .content-blog h4 {
+    font-size: 18px;
+  }
+  .blog-card .content-blog p {
+    font-size: 14px;
+  }
+  .blog-card h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .blog-card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+/* - - - MOBILE - - - */
+@media screen and (max-width: 480px) {
+  .contenedor-blog {
+    grid-template-columns: 1fr;
+  }
+  .blog-card {
+    flex-direction: column;
+  }
+  .blog-card .image {
+    width: 100%;
+  }
+  .blog-card .content-blog {
+    width: 100%;
+    padding: 10px;
+  }
+  .blog-card h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .blog-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+/*- - - - - - - - - - FIN MEDIA QUERIES BLOG - - - - - - - - - -*/
+/*- - - - - MEDIA QUERIES CONTACTO - - - - -*/
+/* - - - TABLET - - - */
+@media screen and (max-width: 1024px) {
+  .container-form {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .container-form .titulo-form {
+    margin: 30px;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+  }
+  .container-form h2 {
+    font-size: 28px;
+  }
+  .container-form p {
+    font-size: 16px;
+  }
+  .container-form form textarea {
+    max-width: 100%;
+    min-width: auto;
+    min-height: 120px;
+    max-height: 130px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-form {
+    margin-top: 70px;
+  }
+  .container-form p {
+    font-size: 15px;
+  }
+  .container-form form .campo,
+  .container-form form textarea {
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+  .container-form .btn-enviar {
+    padding: 12px;
+    font-size: 18px;
+  }
+}
+/* - - - MOBILE - - - */
+@media screen and (max-width: 480px) {
+  .container-form {
+    margin-top: 50px;
+  }
+  .container-form p {
+    font-size: 14px;
+  }
+  .container-form form .campo,
+  .container-form form textarea {
+    padding: 10px 6px;
+    font-size: 13px;
+  }
+  .container-form .btn-enviar {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+/*- - - - - FIN MEDIA QUERIES CONTACTO - - - - -*/
 
 /*# sourceMappingURL=style.css.map */
